@@ -1,0 +1,26 @@
+
+.memory-checks {
+    display: flex;
+    gap: 5px;
+}
+
+.checks-item input {
+    display: none;
+}
+
+.btn-checks {
+    background-color: #fff !important;
+    border-color: var(--disabled-color) !important;
+    color: var(--disabled-color) !important;
+}
+
+.checks-item label {
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+.btn-check:checked+label {
+    background-color: var(--disabled-color) !important;
+    border-color: var(--color-secondary) !important;
+    color: var(--color-secondary) !important;
+}

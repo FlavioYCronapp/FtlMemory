@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false" swagger="false">
+  <metadata scale="1" scrollx="1411.9528368718036" scrolly="176.5" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-1267" y="-112">
+    <mutation>
+      <arg id="151141a8" name="status"/>
+    </mutation>
+    <field customattributes="" name="NAME">ObterStatusVisual</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="!gX@njUod1z,PJ6],5o]" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">statusRetorno</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="@$H/a98U$)G1z-?zH9:7" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+            <field customattributes="" name="TEXT"/>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#5b80a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=",VF=8|wv2Njt4+dA)))%" origintype="controls_if" output="false" tooltip="function () {&#10;    [native code]&#10;}" type="controls_if">
+            <mutation else="1" elseif="3"/>
+            <value name="IF0">
+              <block asynccall="false" colour="#5b80a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=":jFakL7uJ(d2^o8U_?B2" origintype="logic_compare" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="logic_compare">
+                <field customattributes="" name="OP">EQ</field>
+                <value name="A">
+                  <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="soWmZYh/(3IX[@,1QGEv" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="*;SP;0G_e1Z|-|EIC(Lu" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="GtDnGEjN(Mn-ro%pxTIX" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                <field customattributes="" name="VAR">statusRetorno</field>
+                <value name="VALUE">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="s(+za+3^7r/!~(e,(ASi" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT"> &lt;div class="status bl-status-indeferido" bl-status="bl-status-indeferido"&gt;Indeferido&lt;/div&gt;</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block asynccall="false" colour="#5b80a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="{K4e/37ZZek9Y4hf:(,7" origintype="logic_compare" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="logic_compare">
+                <field customattributes="" name="OP">EQ</field>
+                <value name="A">
+                  <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Qup8h*MNv|D;o3$Dn!lc" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="gnhx(PlTYFB{]]k!BD2C" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO1">
+              <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="EiMy{zntImCd[G%d=NNM" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                <field customattributes="" name="VAR">statusRetorno</field>
+                <value name="VALUE">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="=.6zh(OrP*Q:0pVbzmm^" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT"> &lt;div class="status bl-status-cancelado" bl-status="bl-status-cancelado"&gt;Cancelado&lt;/div&gt;</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <value name="IF2">
+              <block asynccall="false" colour="#5b80a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="A?CjUFnOw~hzke+1l{:4" origintype="logic_compare" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="logic_compare">
+                <field customattributes="" name="OP">EQ</field>
+                <value name="A">
+                  <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Dp|oC9EYZKAROoOAfc?." origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="az5f{4]UlWo+}7:Vq`u_" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT">3</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO2">
+              <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="x}yrjlMUSLI;_6T-98$5" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                <field customattributes="" name="VAR">statusRetorno</field>
+                <value name="VALUE">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="k7antqspNjV.aWVc+sV8" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT"> &lt;div class="status bl-status-andamento" bl-status="bl-status-andamento"&gt;Em andamento&lt;/div&gt;</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <value name="IF3">
+              <block asynccall="false" colour="#5b80a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="O_i%CH^n7m2jFTmgWj3t" origintype="logic_compare" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="logic_compare">
+                <field customattributes="" name="OP">EQ</field>
+                <value name="A">
+                  <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=".eM-}tn)x1at0sJQHrPX" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="wskS,3NH7OZ:b4!c51C#" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT">4</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO3">
+              <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="VM[L*K={)JO}GGUG9T|c" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                <field customattributes="" name="VAR">statusRetorno</field>
+                <value name="VALUE">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="r=%Fs*$%P^AmMxheZpzs" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT"> &lt;div class="status bl-status-deferido" bl-status="bl-status-deferido"&gt;Deferido&lt;/div&gt;</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="3T:0+*ot2qYFm$O0i0A)" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                <field customattributes="" name="VAR">statusRetorno</field>
+                <value name="VALUE">
+                  <block asynccall="false" colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="%@6jlKeg77~N$qE/*EX(" origintype="text" output="true" tooltip="function () {&#10;    [native code]&#10;}" type="text">
+                    <field customattributes="" name="TEXT"> &lt;div class="status bl-status-desconhecido" bl-status="bl-status-desconhecido"&gt;Desconhecido&lt;/div&gt;</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="k^Ubi!Sy.#42YHvOwlPW" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+        <field customattributes="" name="VAR">statusRetorno</field>
+      </block>
+    </value>
+  </block>
+</blockly>

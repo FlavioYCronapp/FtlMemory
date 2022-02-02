@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="src/main/webapp/views/logged/componente-status.view.html" resourceType="JS" ruleDescription="Status" ruleName="Status" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="494.9000000000003" scrolly="-57.69999999999959" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field customattributes="" name="NAME">changesStatus</field>
+    <comment h="80" pinned="false" w="160">Status</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#1a4290" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="s,BC8S|n(;QSy`K6syE%" multilayer="false" namespace="cronapi.memory.changeValueStatus" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EchangeValueStatus%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EBloco%20para%20alterar%20o%20campo%20de%20texto%20do%20componente%20Status%20(Memory)%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Identificador%20do%20componente%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20A%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22http://localhost:8080/help?type=blockly&amp;amp;id=cronapi.memory.changeValueStatus%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.memory.changeValueStatus}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Identificador do componente"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Ação"/>
+        </mutation>
+        <value name="ARG0">
+          <block asynccall="false" colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="VWUK}s4=}dge{?Q%6ze$" origintype="ids_from_screen" output="true" type="ids_from_screen">
+            <field customattributes="" name="SELECT">memory-status-805175</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block asynccall="false" colour="#1a4290" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="NLN=KU]wQtc;!ZfQIiz$" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="deferido" value="deferido"/>
+              <arg name="indeferido" value="indeferido"/>
+              <arg name="andamento" value="andamento"/>
+              <arg name="cancelado" value="cancelado"/>
+            </mutation>
+            <field customattributes="" name="SELECT">cancelado</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>

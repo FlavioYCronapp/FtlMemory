@@ -1,0 +1,39 @@
+{
+    "name": "memory-search",
+    "text_pt_BR": "Campo de pesquisa",
+    "text_en_US": "Research field",
+    "class": "adjust-icon glyphicon glyphicon-search",
+    "category": [
+        "Memory", "FORMS", "BUTTONS"
+    ],
+    "templateURL": "src/main/webapp/components/template/search.template.html",
+    "wrapper": true,
+    "forcedGroup": true,
+    "properties": {
+        "id": {
+            "order": "1"
+        },
+        "class": {
+            "order": "9999"
+        }
+    },
+    "childrenProperties": [
+        {
+            "name": "class",
+            "selector": "i",
+            "type": "i",
+            "order": 1
+        }
+    ],
+    "handleRules": {
+        "canOrder": true,
+        "canActivate": true,
+        "canIncrement": true,
+        "rules": [
+            {
+                "sourceHTML": "<div class=\"component-holder ng-scope col-lg-4 col-md-4 col-sm-4 col-xs-6\" data-component=\"crn-textinput\" id=\"crn-textinput-${RANDOM}\"><div class=\"form-group\"><label for=\"input1${RANDOM}\">Label</label><input type=\"text\" mask=\"\" mask-placeholder=\"\" ng-required=\"false\" ng-model=\"vars.input${RANDOM}\" class=\"form-control k-textbox\" id=\"input1${RANDOM}\" placeholder=\"Placeholder text\"></div></div>",
+                "targetSelector": "div.memory-search"
+            }          
+        ]
+    }
+}

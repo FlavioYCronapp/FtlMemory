@@ -1,0 +1,240 @@
+.navbar-retratil .header {
+    background-color: rgb(42, 48, 64);
+    height: 100vh;
+    width: auto;
+}
+
+.brand-container {
+    padding: 10px;
+}
+
+.navbar-retratil .header.abrir {
+    min-width: 190px;
+}
+
+.navbar-retratil .header span {
+    display: none;
+}
+
+.navbar-retratil .header.abrir span {
+    display: block;
+}
+
+.navbar-retratil #item-menu {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    padding: 10px;
+    min-height: 25px;
+}
+
+.navbar-retratil a:hover,
+.navbar-retratil a {
+    text-decoration: none;
+}
+
+.navbar-retratil li {
+    height: 26.8px;
+}
+
+.navbar-retratil .imgLogo {
+    width: auto;
+    height: 38px;
+}
+
+.navbar-retratil .content {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.navbar-retratil .main-content {
+    padding: 20px;
+}
+
+.navbar-retratil .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.navbar-retratil .content-general {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.navbar-retratil .fa,
+.navbar-retratil i,
+.navbar-retratil span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-retratil ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-retratil ul li {
+    margin: 12px 0;
+}
+
+.navbar-retratil.crn-navigator-vertical {
+    width: 49px;
+    position: fixed;
+    z-index: 5;
+}
+
+.navbar-retratil.crn-navigator-vertical+#dark-content+.main-view-vertical {
+    margin: 40px;
+    margin-left: 86px;
+    width: 90vw;
+}
+
+.navbar-retratil #main-view {
+    width: 94vw;
+    margin: 28px;
+    margin-left: 80px;
+}
+
+.memory-backdrop {
+    background-color: #00000057;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-retratil #item-menu .caret {
+    border: 7px solid transparent;
+    border-top: 8px solid var(--color-aux);
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+
+.navbar-retratil .header.abrir #item-menu:hover .caret {
+    border: 0;
+}
+
+.navbar-retratil .nav>li>a:focus,
+.navbar-retratil .nav>li>a:hover {
+    background-color: transparent;
+}
+
+.navbar-retratil .nav .open>a,
+.navbar-retratil .nav .open>a:focus,
+.navbar-retratil .nav .open>a:hover {
+    color: #ffff;
+    background-color: transparent;
+}
+
+.navbar-retratil .dropdown-menu,
+.navbar-retratil .dropdown-submenu {
+    color: #2A3040;
+}
+
+.navbar-retratil #item-menu.open ul {
+    background-color: #ffff;
+    color: #2A3040;
+    border-radius: 1px;
+    /* margin-left: 37px; */
+    width: 100%;
+}
+
+.navbar-retratil #item-menu.open .dropdown-menu {
+    margin-top: -1px;
+}
+
+.navbar-retratil #item-menu.open>li {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-retratil .dropdown-submenu .dropdown-toggle span,
+.navbar-retratil .dropdown-submenu i {
+    color: #2A3040;
+}
+
+.navbar-retratil .dropdown-menu>li>a:focus,
+.navbar-retratil .dropdown-menu>li>a:hover {
+    background-color: transparent;
+}
+
+.navbar-retratil .dropdown-menu #item-menu:first-child {
+    margin-top: 0;
+}
+
+.navbar-retratil .dropdown-menu #item-menu:last-child {
+    margin-bottom: 0;
+}
+
+.navbar-retratil .nav>li>a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-retratil.crn-navigator-vertical li a,
+.navbar-retratil.crn-navigator-vertical li {
+    height: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+}
+
+
+.navbar-retratil .navbar-default,
+.navbar-retratil.crn-navigator-vertical>.navbar>.container-fluid {
+    height: 100vh;
+}
+
+.navbar-retratil.crn-navigator-vertical #navbar-profile i,
+.navbar-retratil .navbar-default .navbar-nav>li>a>i {
+    display: block;
+}
+
+
+/* Hover 1º nivel */
+
+.navbar-retratil .header.abrir #item-menu:hover {
+    background-color: #ffffff45;
+}
+
+
+/* Hover 2º nivel */
+
+.navbar-retratil .header.abrir #item-menu.dropdown .dropdown-submenu:focus,
+.navbar-retratil .header.abrir #item-menu.dropdown .dropdown-submenu:hover {
+    background-color: var(--color-secondary);
+    /* color: #e5e5e5; */
+}
+
+/* After */
+
+.navbar-retratil .header.abrir .dropdown:focus a::after,
+.navbar-retratil .header.abrir .dropdown:hover a::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    right: 0;
+    border: 25px solid transparent;
+    border-left: 0;
+    border-right: 21px solid var(--color-aux);
+    z-index: 2;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+.navbar-retratil .header.abrir #item-menu.dropdown:focus .dropdown-submenu a::after,
+.navbar-retratil .header.abrir #item-menu.dropdown:hover .dropdown-submenu a::after {
+    content: none;
+}

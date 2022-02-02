@@ -1,0 +1,42 @@
+/* Botão do formulário */
+
+.active-bar {
+    border-top: 1px solid var(--disabled-color);
+    padding-top: 20px;
+    margin-top: 32px;
+    justify-content: right;
+    display: flex;
+    gap: 20px;
+}
+
+.active-bar .col-md-3 {
+    padding: 0;
+}
+
+/* Entrada de texto com botão */
+.crn-textinputbutton {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.crn-textinputbutton-button {
+    padding: 0;
+    margin-top: 12px;
+}
+
+.crn-textinputbutton-button button {
+    margin: 0;
+    margin-left: 0;
+    height: 40px;
+}
+
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.crn-navigator-vertical #navbar-profile i,
+.navbar-default .navbar-nav>li>a>i {
+    display: block;
+}

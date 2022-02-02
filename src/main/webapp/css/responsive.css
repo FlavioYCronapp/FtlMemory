@@ -1,0 +1,13 @@
+/* Tablet */
+@media screen and (min-width: 755px) and (max-width: 1199px) {
+
+    .main-view-vertical{
+        margin: 40px;
+        margin-left: 86px;
+        width: 86vw;
+    }
+
+}
+
+/* Celular */
+@media screen and (max-width: 754px) {}

@@ -1,0 +1,132 @@
+.container-login {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+.capa-login {
+    /* background-color: #1128657d; */
+    background-image: url(../img/fundo-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa-login img{
+    width: 84%;
+    height: auto;
+    max-width: 300px;
+}
+
+.subtitle-info {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--color-aux);
+    margin-top: 13px;
+    line-height: 28.13px;
+    letter-spacing: 0.01em;
+    margin-right: 10.79%;
+    margin-left: 19.8%;
+    text-align: center;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-aux);
+}
+
+.container-form img {
+    position: absolute;
+    z-index: -999;
+    display: none;
+}
+
+@media (max-width: 1150px) {
+
+    .container-info,
+    .capa-login {
+        width: 0vw;
+        position: absolute;
+        z-index: -999;
+        display: none;
+    }
+
+    .container-form {
+        width: 100vw;
+    }
+
+    .container-form img {
+        display: block;
+        position: relative;
+        max-width: 370px;
+        margin-bottom: 30px;
+    }
+}
+
+.input-login-memory {
+    width: 38vw !important;
+}
+
+.container-info img {
+    max-width: 374px;
+    height: auto;
+}
+
+.form-login-memory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-login-memory button {
+    width: fit-content;
+    padding: 10px 50px;
+}
+
+.mensagem-bem-vindo {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--color-secondary);
+    margin-bottom: 40px;
+}
+
+.mensagem-cadastre-se {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.esqueceu-senha {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-sub-aux);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mensagem-login {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--color-sub-aux);
+    margin-bottom: 20px;
+}

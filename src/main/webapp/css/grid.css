@@ -1,0 +1,68 @@
+.k-grid {
+    overflow: auto;
+}
+
+.k-grid-header .k-header {
+    background: var(--color-primary);
+}
+
+.k-pager-wrap .k-state-selected,
+.k-pager-wrap .k-state-selected:hover {
+    background-color: var(--color-primary);
+}
+
+.k-command-cell .k-button {
+    padding: 17px !important;
+    background: var(--color-secondary) !important;
+}
+
+.k-button .k-icon {
+    color: var(--color-aux);
+}
+
+.k-grid tbody .k-button {
+    border-radius: 6px;
+}
+
+.k-pager-wrap a.k-pager-refresh {
+    color: var(--color-secondary);
+}
+
+.k-pager-wrap a.k-pager-refresh:hover {
+    background: var(--color-secondary);
+    color: var(--color-aux);
+}
+
+.k-grid-header .k-header,
+.k-grid-header .k-header a.k-link {
+    text-transform: capitalize;
+}
+
+.k-grid-toolbar .k-button {
+    text-transform: capitalize;
+}
+
+.k-grid-toolbar .k-button:hover .k-i-plus {
+    color: var(--color-aux);
+}
+
+.k-grid-toolbar .k-button:hover {
+    text-transform: capitalize;
+    background-color: var(--color-secondary);
+    color: var(--color-aux);
+}
+
+/* Icone de deletar */
+.k-grid .k-i-close:before,
+.k-grid .k-i-group-delete:before,
+.k-grid .k-i-x:before {
+    content: "\e10c";
+}
+
+.tool-bar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: fit-content;
+    gap: 10px;
+}

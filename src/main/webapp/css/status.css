@@ -1,0 +1,68 @@
+.status {
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.status-nao-recebido {
+    color: #fff;
+    background: #F55448;
+}
+
+.status-sucesso {
+    color: #fff;
+    background: #5CB660;
+}
+
+.status-em-analise {
+    color: #fff;
+    background: #FFA117;
+}
+
+.status-em-andamento {
+    color: #fff;
+    background: #35A0F4;
+}
+
+
+
+/* Componente Status */
+
+.bl-status-deferido,
+.bl-status-indeferido,
+.bl-status-andamento,
+.bl-status-cancelado {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bl-status-deferido:before,
+.bl-status-indeferido:before,
+.bl-status-andamento:before,
+.bl-status-cancelado:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+}
+
+.bl-status-deferido:before {    
+    background-color: var(--color-success);
+}
+
+.bl-status-indeferido:before {
+    background-color: var(--color-warning);
+}
+
+.bl-status-andamento:before {
+    background-color: var(--color-info);
+}
+
+.bl-status-cancelado:before {
+    background-color: var(--color-danger);
+}

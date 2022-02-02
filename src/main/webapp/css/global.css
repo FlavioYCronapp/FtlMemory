@@ -1,0 +1,193 @@
+@import 'fontes.css';
+@import 'grid.css';
+@import 'input.css';
+@import 'login.css';
+@import 'menu.css';
+@import 'status.css';
+@import 'toggle.css';
+@import 'button.css';
+@import 'menu-retratil.css';
+@import 'responsive.css';
+@import 'checks.css';
+@import 'search.css';
+
+:root {
+    --color-primary: #2A3040;
+    --color-primary-1: #3F4A66;
+    --color-primary-2: #6B7285;
+    --color-primary-3: #AFB9D5;
+
+    --blue: #2A3040;
+    --light-blue: #788ABA;
+
+    --color-secondary: #5B6788;
+    --color-secondary-1: #788ABA;
+    --color-secondary-2: #94AAE4;
+    --color-secondary-3: #D8E2FF;
+
+    --disabled-color: #C4C4C4;
+
+    --color-feedback-success: #18AF55;
+    --color-feedback-danger: #E10717;
+    --application-background: #f4f4f4;
+
+    --checkbox-checked-background: #0A253E;
+
+    --color-aux: #fff;
+    --color-sub-aux: #000;
+
+    --color-success: #5CB660;
+    --color-success-1: #09580D;
+
+    --color-danger: #F55448;
+    --color-danger-1: #711C16;
+
+    --color-info: #35A0F4;
+    --color-info-1: #0C3B60;
+
+    --color-warning: #FFA117;
+    --color-warning-1: #7B4F0D;
+
+    --font-family: 'Roboto', sans-serif;
+    --font-size-medium: 16px;
+    --font-size-small: 14px;
+    --font-size-big: 24px;
+
+    --color-text: rgba(0, 0, 0, .87);
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font: 400 14px/20px var(--font-family);
+    letter-spacing: normal;
+}
+
+*,
+body,
+html,
+input,
+a,
+ul,
+li,
+h1,
+h2,
+p,
+span,
+label {
+    font-family: var(--font-family);
+    line-height: 1.5;
+
+}
+
+p,
+span,
+label,
+a,
+input,
+.k-textbox.form-control {
+    font-size: var(--font-size-medium);
+}
+
+a:focus,
+a:hover {
+    color: var(--color-primary-1);
+}
+
+.memory-card {
+    padding: 1em;
+    background: var(--application-background);
+    color: var(--color-text);
+    clear: both;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    display: flow-root;
+}
+
+.main-view-vertical {
+    margin-bottom: 0.5vh;
+}
+
+/* Acordeão */
+
+.panel-body {
+    padding: 0;
+}
+
+.lead {
+    margin-bottom: 0;
+}
+
+.panel-default .panel-heading {
+    border-radius: 0;
+    color: var(--color-secondary);
+    background-color: #fafafa;
+}
+
+.panel-default .panel-collapse {
+    padding: 1em;
+    /* height: auto !important; */
+}
+
+.panel-group .panel {
+    background-color: #fafafa;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+
+.panel-group .heading-arrow.panel-heading:after {
+    color: var(--color-secondary);
+}
+
+/* Modal */
+.k-dialog-buttongroup .k-button {
+    border: 2px solid var(--color-secondary) !important;
+    box-sizing: border-box;
+    color: var(--color-secondary);
+    font-weight: 700;
+    padding: 0 26px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+.k-dialog-buttongroup .k-button.k-primary {
+    background-color: var(--color-secondary) !important;
+    color: #fff;
+
+}
+
+.k-dialog-buttongroup {
+    padding: 16px;
+}
+
+/* Snackbar */
+
+.k-notification-wrap {
+    font-size: 1em;
+}
+
+.display-titulo-memory {
+    display: flex;
+}
+
+.display-titulo-memory .btn {
+    margin-top: 10px;
+}
+
+/* modal */
+
+#modalBodyConfirmDialog .title {
+    font-size: 20px;
+    white-space:pre-wrap
+}
+
+#modalBodyConfirmDialog .subtitle {
+    font-size: 17px;
+    white-space:pre-wrap
+}

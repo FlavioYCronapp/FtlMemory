@@ -1,0 +1,16 @@
+{
+  "Status": "Status",
+  "deferido": "Deferred",
+  "indeferido": "Indeferido",
+  "andamento": "Rejected",
+  "cancelado": "Cancelled",
+  "statusIdParamDescription": "Component identifier",
+  "statusActionParamDescription": "Action",
+  "changeValueStatus": "Change status",
+  "successRegister": "Information successfully saved!",
+  "errorRegister": "Error registering information!",
+  "modalDelete": "Delete Confirmation Mode",
+  "modalCancel": "Confirmation modal cancel",
+  "sucessNotification": "Success notification",
+  "errorNotification": "Error notification"
+}

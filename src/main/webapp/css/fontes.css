@@ -1,0 +1,109 @@
+h1,
+.h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+h2,
+.h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+h3,
+.h3 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+h4,
+.h4 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    white-space: nowrap;
+}
+
+h5,
+.h5 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+h6,
+.h6 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.subtitle-1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.subtitle-2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.body-1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.body-2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.button-1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.caption-1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.overline-1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    white-space: nowrap;
+}

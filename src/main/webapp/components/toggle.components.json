@@ -1,0 +1,29 @@
+{
+    "name": "crn-toggle-switch",
+    "text_pt_BR": "Botão de alternância",
+    "text_en_US": "Toggle Switch",
+    "class": "fa fa-toggle-on",
+    "wrapper": false,
+    "templateURL": "src/main/webapp/components/template/toggle.template.html",
+    "description": "Botão de alternância",
+    "description_en_US": "Toggle Switch",
+    "category": [
+        "BUTTONS", "FORMS", "Memory"
+    ],
+    "properties": {},
+    "childrenProperties": [
+        {
+            "name": "ng-model",
+            "selector": "input",
+            "type": "text",
+            "onSave": "javascript:function() { var result = arguments[0]; result = result.replaceAll(/[-,+, ,(,),']/g,''); if (result.indexOf('.') == -1 && result.trim().length > 0 ) { result = 'vars.'+result; } return result; }",
+            "onDisplay": "javascript:function() { return arguments[0].replace('vars.',''); }",
+            "mandatory": true
+        },
+        {
+            "name": "ng-click",
+            "selector": "input",
+            "type": "event"
+        }
+    ]
+}

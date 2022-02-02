@@ -1,0 +1,225 @@
+.form-group {
+    position: relative;
+    min-height: 30px;
+}
+
+.crn-inputbutton-memory .crn-inputbutton:focus-within label,
+.dynamic-combobox-memory:focus-within label,
+.form-group:focus-within label {
+    top: 0;
+    font-size: var(--font-size-medium);
+    color: var(--color-primary);
+    z-index: 2;
+    padding: 2px 6px;
+    background-color: var(--color-aux);
+}
+
+.crn-inputbutton-memory .crn-inputbutton label,
+.crn-textinput-icon label,
+.dynamic-combobox-memory label,
+.form-group label {
+    position: absolute;
+    top: calc(50% - 6px);
+    font-size: var(--font-size-medium);
+    left: 10px;
+    color: var(--color-sub-aux);
+    transition: all 0.3s;
+}
+
+.crn-inputbutton-memory .crn-inputbutton label,
+.dynamic-combobox-memory label {
+    position: relative;
+}
+
+.crn-inputbutton-memory .crn-inputbutton label {
+    top: 26px;
+}
+
+.form-group input[value]:not([value=""]),
+.top-label {
+    top: 0 !important;
+    font-size: var(--font-size-medium) !important;
+    color: var(--color-primary) !important;
+    z-index: 2 !important;
+    padding: 2px 6px !important;
+    background-color: #ffff !important;
+}
+
+.form-group input:focus {
+    border: 1px solid var(--color-primary);
+}
+
+.input-group,
+.cronAutoComplete,
+.cronDynamicSelect,
+.textarea-form-group textarea,
+.form-group input,
+.cronMultiSelect,
+.cronSelect {
+    margin-top: 12px;
+    padding: 10px !important;
+    height: 45px !important;
+    padding-top: 15px !important;
+    border: 1px solid #727171;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.textarea-form-group textarea {
+    height: auto !important;
+    margin-top: -17px;
+}
+
+.input-group input,
+.cronAutoComplete input,
+.cronDynamicSelect .k-dropdown-wrap,
+.cronSelect input,
+.cronMultiSelect input,
+.cronMultiSelect .k-multiselect-wrap input,
+.cronMultiSelect .k-multiselect-wrap {
+    border: none;
+}
+
+.k-multiselect-wrap .form-group.k-textbox.form-control {
+    height: inherit;
+}
+
+.change-height {
+    height: 56px !important;
+}
+
+.cronSelect input,
+.cronMultiSelect input,
+.cronMultiSelect .k-multiselect-wrap input {
+    margin-top: -3px;
+}
+
+/* caixa de seleção fixa */
+.k-combobox.cronSelect input:focus,
+.k-combobox.cronSelect .k-dropdown-wrap {
+    border: none;
+}
+
+.cronDynamicSelect:focus-within,
+.k-combobox.cronSelect:focus-within {
+    height: 56px !important;
+}
+
+.k-combobox.cronSelect input {
+    margin-top: -10px;
+    padding: 0 !important;
+}
+
+
+/* Entrada de texto com botão */
+.crn-textinputbutton .input-group input {
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+.crn-textinputbutton .input-group {
+    margin-right: 10px;
+}
+
+.crn-inputbutton-memory .crn-inputbutton-group {
+    margin-top: -17px;
+}
+
+.crn-inputbutton-memory .crn-inputbutton-group .input-group {
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.crn-inputbutton-memory .crn-inputbutton-group button {
+    height: 50px ;
+    margin: 0;
+}
+
+/* Entrada de texto com ícone */
+.crn-textinput-icon .k-button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.crn-textinput-icon .input-group {
+    margin-top: -17px;
+}
+
+.crn-textinput-icon .k-button i {
+    color: var(--color-primary);
+}
+
+.crn-textinput-icon label {
+    position: relative;
+    background-color: #fff !important;
+    z-index: 3;
+    font-size: var(--font-size-medium) !important;
+    color: var(--color-primary) !important;
+    padding: 2px 6px !important;
+
+}
+
+/* Área de texto */
+
+.textarea-form-group label {
+    position: relative;
+    left: 12px;
+    transition: all 0.3s;
+    top: 0;
+    font-size: var(--font-size-medium);
+    color: var(--color-primary);
+    z-index: 2;
+    padding: 2px 6px;
+    background-color: var(--color-aux);
+}
+
+/* Caixa de seleção dinâmica */
+.dynamic-combobox-memory label {
+    left: 12px;
+    top: 23px;
+}
+
+.dynamic-combobox-memory .cronDynamicSelect {
+    margin-top: -17px;
+}
+
+/* Auto Completar */
+.cronAutoComplete.k-autocomplete .k-input {
+    margin-top: -17px;
+    border: none;
+    font-size: var(--font-size-medium);
+}
+
+/* Slider */
+.crn-slider-form-group .k-button .k-icon {
+    color: var(--color-primary);
+}
+
+.k-slider .k-draghandle,
+.k-switch-on .k-switch-handle {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.k-slider .k-slider-selection {
+    background-color: var(--checkbox-checked-background);
+}
+
+/* Input radio */
+.k-checkbox:focus:checked+.k-checkbox-label:before,
+.k-radio:focus:checked+.k-radio-label:before,
+.k-radio:checked+.k-radio-label:before {
+    border-color: var(--color-primary);
+}
+
+.k-radio:checked+.k-radio-label:after {
+    background-color: var(--color-primary);
+}
+
+/* Arquivo/imagem dinâmica */
+.dynamic-image-container {
+    border-color: var(--color-primary);
+}

@@ -1,0 +1,56 @@
+{
+    "name": "memory-status",
+    "text_pt_BR": "Status",
+    "text_en_US": "Status",
+    "class": "adjust-icon mdi mdi-panorama-fisheye",
+    "category": [
+        "Memory"
+    ],
+    "templateURL": "src/main/webapp/components/template/status.template.html",
+    "wrapper": false,
+    "forcedGroup": true,
+    "properties": {
+        "onclick": {
+            "type": "event"
+        },
+        "bl-status": {
+            "displayName_pt_BR": "Tipo de status",
+            "displayName_en_US": "Type of status"
+        }
+    },
+    "attributesForPreview": [
+        {
+            "name": "bl-status",
+            "type": "options",
+            "target": "class",
+            "values": [
+                {
+                    "key": "bl-status-deferido",
+                    "value_pt_BR": "Deferido",
+                    "value_en_US": "Deferred"
+                },
+                {
+                    "key": "bl-status-indeferido",
+                    "value_pt_BR": "Indeferido",
+                    "value_en_US": "Rejected"
+                },
+                {
+                    "key": "bl-status-andamento",
+                    "value_pt_BR": "Em andamento",
+                    "value_en_US": "In progress"
+                },
+                {
+                    "key": "bl-status-cancelado",
+                    "value_pt_BR": "Cancelado",
+                    "value_en_US": "Canceled"
+                }
+            ]
+        }
+    ],
+    "childrenProperties": [
+        {
+            "name": "bl-status",
+            "selector": "div"
+        }
+    ]
+}

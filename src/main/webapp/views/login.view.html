@@ -1,0 +1,38 @@
+<div id="starter" onload="initInput();" ng-destroy="" data-component="crn-start" screen-params="">
+    <div class="container-login">
+        
+        <div class="capa-login">
+            <img src="img/Logo_Memory_login.png">
+            <div class="subtitle-info">
+                Sistema de gestão
+            </div>
+        </div>
+
+        <div class="container-form">
+            <img src="img/Logo_Memory.png">
+            <p class="mensagem-bem-vindo">Seja bem-vindo(a)!</p>
+            <p class="mensagem-login">Login</p>
+            <form autocomplete="off" class="form-login-memory" name="form" ng-submit="login()" role="form">
+                <div class="component-holder ng-scope" data-component="crn-textinput" id="crn-textinput-205305">
+                    <div class="form-group" id="form-group-email">
+                        <label for="email" class="">E-mail</label>
+                        <input type="text" mask="" mask-placeholder="" ng-required="false" ng-model="username.value" class="input-login-memory form-control k-textbox" id="email" placeholder="">
+                    </div>
+                </div>
+                <div class="component-holder ng-scope" data-component="crn-textinput" id="crn-textinput-205302">
+                    <div class="form-group">
+                        <label for="senha" class="">Senha</label>
+                        <input type="password" mask="" mask-placeholder="" ng-required="false" ng-model="password.value" class="input-login-memory form-control k-textbox" id="senha" placeholder="">
+                    </div>
+                </div>
+                <div class="esqueceu-senha">Esqueceu a senha?</div>
+                <div class="mensagem-cadastre-se">
+                    CADASTRE-SE AGORA
+                </div>
+                <button role="button" aria-label="{{'Login.view.Login' | translate}}" class="btn btn-default col-md-12 col-xs-12 k-button btn-primary" type="submit" ng-disabled="form.$invalid || vm.dataLoading" ng-click="" xattr-size="" xattr-fullsize="" xattr-theme="btn-default" xattr-disabled="" data-component="crn-button">
+                    <span>{{"Login.view.Login" | translate}} </span>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

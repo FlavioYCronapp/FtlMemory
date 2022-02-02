@@ -1,0 +1,101 @@
+{
+    "name": "memory-checks",
+    "text_pt_BR": "Checks",
+    "text_en_US": "Checks",
+    "class": "adjust-icon mdi mdi-checkbox-blank-outline",
+    "category": [
+        "Memory", "FORMS"
+    ],
+    "templateURL": "src/main/webapp/components/template/checks.template.html",
+    "wrapper": true,
+    "forcedGroup": true,
+    "properties": {
+        "id": {
+            "order": "1"
+        },
+        "class": {
+            "order": "9999"
+        },
+        "xattr-theme": {
+            "displayName_pt_BR": "Cor do botão",
+            "displayName_en_US": "Button color",
+            "order": 4
+        }
+    },
+    "attributesForPreview": [
+        {
+            "name": "xattr-theme",
+            "type": "options",
+            "target": "class",
+            "values": [
+                {
+                    "key": "btn-default",
+                    "value_pt_BR": "Padrão",
+                    "value_en_US": "Default"
+                },
+                {
+                    "key": "btn-primary",
+                    "value_pt_BR": "Primário",
+                    "value_en_US": "Primary"
+                },
+                {
+                    "key": "btn-success",
+                    "value_pt_BR": "Sucesso",
+                    "value_en_US": "Success"
+                },
+                {
+                    "key": "btn-info",
+                    "value_pt_BR": "Informação",
+                    "value_en_US": "Info"
+                },
+                {
+                    "key": "btn-warning",
+                    "value_pt_BR": "Aviso",
+                    "value_en_US": "Warning"
+                },
+                {
+                    "key": "btn-danger",
+                    "value_pt_BR": "Perigo",
+                    "value_en_US": "Danger"
+                },
+                {
+                    "key": "btn-light",
+                    "value_pt_BR": "Claro",
+                    "value_en_US": "Light"
+                },
+                {
+                    "key": "btn-link",
+                    "value": "Link"
+                },
+                {
+                    "key": "btn-checks",
+                    "value": "Checks"
+                }
+            ]
+        }
+    ],
+    "childrenProperties": [
+        {
+            "name": "content",
+            "selector": "span",
+            "type": "text",
+            "order": 1
+        },
+        {
+            "name": "xattr-theme",
+            "selector": "label",
+            "order": 2
+        }
+    ],
+    "handleRules": {
+        "canOrder": true,
+        "canActivate": true,
+        "canIncrement": true,
+        "rules": [
+            {
+                "sourceHTML": "<div class=\"checks-item\"><input type=\"radio\" class=\"btn-check\" name=\"options\" id=\"option-${RANDOM}\" autocomplete=\"off\"> <label class=\"btn k-button btn-block btn-default\" for=\"option-${RANDOM}\">New</label></div>",
+                "targetSelector": "div.memory-checks"
+            }
+        ]
+    }
+}

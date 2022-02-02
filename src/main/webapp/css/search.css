@@ -1,0 +1,59 @@
+.memory-search-button {
+    line-height: 72px;
+}
+
+.memory-search-button button {
+    height: 45px;
+    text-align: center;
+}
+
+.memory-search .col-lg-1,
+.memory-search .col-lg-10,
+.memory-search .col-lg-11,
+.memory-search .col-lg-12,
+.memory-search .col-lg-2,
+.memory-search .col-lg-3,
+.memory-search .col-lg-4,
+.memory-search .col-lg-5,
+.memory-search .col-lg-6,
+.memory-search .col-lg-7,
+.memory-search .col-lg-8,
+.memory-search .col-lg-9,
+.memory-search .col-md-1,
+.memory-search .col-md-10,
+.memory-search .col-md-11,
+.memory-search .col-md-12,
+.memory-search .col-md-2,
+.memory-search .col-md-3,
+.memory-search .col-md-4,
+.memory-search .col-md-5,
+.memory-search .col-md-6,
+.memory-search .col-md-7,
+.memory-search .col-md-8,
+.memory-search .col-md-9,
+.memory-search .col-sm-1,
+.memory-search .col-sm-10,
+.memory-search .col-sm-11,
+.memory-search .col-sm-12,
+.memory-search .col-sm-2,
+.memory-search .col-sm-3,
+.memory-search .col-sm-4,
+.memory-search .col-sm-5,
+.memory-search .col-sm-6,
+.memory-search .col-sm-7,
+.memory-search .col-sm-8,
+.memory-search .col-sm-9,
+.memory-search .col-xs-1,
+.memory-search .col-xs-10,
+.memory-search .col-xs-11,
+.memory-search .col-xs-12,
+.memory-search .col-xs-2,
+.memory-search .col-xs-3,
+.memory-search .col-xs-4,
+.memory-search .col-xs-5,
+.memory-search .col-xs-6,
+.memory-search .col-xs-7,
+.memory-search .col-xs-8,
+.memory-search .col-xs-9 {
+    padding-right: 0;
+}

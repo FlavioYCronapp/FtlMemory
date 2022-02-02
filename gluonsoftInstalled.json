@@ -1,0 +1,309 @@
+[
+  {
+    "gluonsoftId": "A8A92626-2E9C-4BB7-A995-243D16910D6A",
+    "versionId": "A636125D-413F-44AD-BD57-66F0FD8E996B",
+    "name": "Template Memory",
+    "version": "2.0.0",
+    "dateAdded": "2022-01-31 14:33:15",
+    "filesAdded": [
+      {
+        "name": "StatusVisual.blockly",
+        "path": "/src/main/java/blockly/StatusVisual.blockly"
+      },
+      {
+        "name": "grid.css",
+        "path": "/src/main/webapp/css/grid.css"
+      },
+      {
+        "name": "responsive.css",
+        "path": "/src/main/webapp/css/responsive.css"
+      },
+      {
+        "name": "menu-retratil.css",
+        "path": "/src/main/webapp/css/menu-retratil.css"
+      },
+      {
+        "name": "fontes.css",
+        "path": "/src/main/webapp/css/fontes.css"
+      },
+      {
+        "name": "toggle.css",
+        "path": "/src/main/webapp/css/toggle.css"
+      },
+      {
+        "name": "global.css",
+        "path": "/src/main/webapp/css/global.css"
+      },
+      {
+        "name": "search.css",
+        "path": "/src/main/webapp/css/search.css"
+      },
+      {
+        "name": "status.css",
+        "path": "/src/main/webapp/css/status.css"
+      },
+      {
+        "name": "input.css",
+        "path": "/src/main/webapp/css/input.css"
+      },
+      {
+        "name": "button.css",
+        "path": "/src/main/webapp/css/button.css"
+      },
+      {
+        "name": "login.css",
+        "path": "/src/main/webapp/css/login.css"
+      },
+      {
+        "name": "checks.css",
+        "path": "/src/main/webapp/css/checks.css"
+      },
+      {
+        "name": "menu.css",
+        "path": "/src/main/webapp/css/menu.css"
+      },
+      {
+        "name": "Status.blockly.js",
+        "path": "/src/main/webapp/js/blockly/Status.blockly.js"
+      },
+      {
+        "name": "Status.blockly",
+        "path": "/src/main/webapp/js/blockly/Status.blockly"
+      },
+      {
+        "name": "locale_pt_br.json",
+        "path": "/src/main/webapp/js/cronapi/i18n/locale_pt_br.json"
+      },
+      {
+        "name": "locale_en_us.json",
+        "path": "/src/main/webapp/js/cronapi/i18n/locale_en_us.json"
+      },
+      {
+        "name": "memory.cronapi.js",
+        "path": "/src/main/webapp/js/cronapi/memory.cronapi.js"
+      },
+      {
+        "name": "script.js",
+        "path": "/src/main/webapp/js/script.js"
+      },
+      {
+        "name": "input.js",
+        "path": "/src/main/webapp/js/input.js"
+      },
+      {
+        "name": "Logo_Memory_login.png",
+        "path": "/src/main/webapp/img/Logo_Memory_login.png"
+      },
+      {
+        "name": "Logo_Memory.png",
+        "path": "/src/main/webapp/img/Logo_Memory.png"
+      },
+      {
+        "name": "Logo_Memory_branco.png",
+        "path": "/src/main/webapp/img/Logo_Memory_branco.png"
+      },
+      {
+        "name": "fundo-login.png",
+        "path": "/src/main/webapp/img/fundo-login.png"
+      },
+      {
+        "name": "Logomarca_Memory.png",
+        "path": "/src/main/webapp/img/Logomarca_Memory.png"
+      },
+      {
+        "name": "search.components.json",
+        "path": "/src/main/webapp/components/search.components.json"
+      },
+      {
+        "name": "toggle.components.json",
+        "path": "/src/main/webapp/components/toggle.components.json"
+      },
+      {
+        "name": "checks.components.json",
+        "path": "/src/main/webapp/components/checks.components.json"
+      },
+      {
+        "name": "status.components.json",
+        "path": "/src/main/webapp/components/status.components.json"
+      },
+      {
+        "name": "checks.template.html",
+        "path": "/src/main/webapp/components/template/checks.template.html"
+      },
+      {
+        "name": "status.template.html",
+        "path": "/src/main/webapp/components/template/status.template.html"
+      },
+      {
+        "name": "toggle.template.html",
+        "path": "/src/main/webapp/components/template/toggle.template.html"
+      },
+      {
+        "name": "search.template.html",
+        "path": "/src/main/webapp/components/template/search.template.html"
+      }
+    ],
+    "filesMerged": [
+      {
+        "name": "index.html",
+        "path": "/src/main/webapp/index.html",
+        "htmlDependencies": [
+          {
+            "src": "js/cronapi/memory.cronapi.js",
+            "type": "script"
+          },
+          {
+            "src": "js/input.js",
+            "type": "script"
+          },
+          {
+            "src": "js/script.js",
+            "type": "script"
+          },
+          {
+            "src": "css/global.css",
+            "type": "style"
+          }
+        ]
+      }
+    ],
+    "filesTmp": [
+      {
+        "name": "StatusVisual.blockly",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/java/blockly/StatusVisual.blockly"
+      },
+      {
+        "name": "grid.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/grid.css"
+      },
+      {
+        "name": "responsive.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/responsive.css"
+      },
+      {
+        "name": "menu-retratil.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/menu-retratil.css"
+      },
+      {
+        "name": "fontes.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/fontes.css"
+      },
+      {
+        "name": "toggle.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/toggle.css"
+      },
+      {
+        "name": "global.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/global.css"
+      },
+      {
+        "name": "search.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/search.css"
+      },
+      {
+        "name": "status.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/status.css"
+      },
+      {
+        "name": "input.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/input.css"
+      },
+      {
+        "name": "button.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/button.css"
+      },
+      {
+        "name": "login.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/login.css"
+      },
+      {
+        "name": "checks.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/checks.css"
+      },
+      {
+        "name": "menu.css",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/css/menu.css"
+      },
+      {
+        "name": "Status.blockly.js",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/js/blockly/Status.blockly.js"
+      },
+      {
+        "name": "Status.blockly",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/js/blockly/Status.blockly"
+      },
+      {
+        "name": "locale_pt_br.json",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/js/cronapi/i18n/locale_pt_br.json"
+      },
+      {
+        "name": "locale_en_us.json",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/js/cronapi/i18n/locale_en_us.json"
+      },
+      {
+        "name": "memory.cronapi.js",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/js/cronapi/memory.cronapi.js"
+      },
+      {
+        "name": "script.js",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/js/script.js"
+      },
+      {
+        "name": "input.js",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/js/input.js"
+      },
+      {
+        "name": "Logo_Memory_login.png",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/img/Logo_Memory_login.png"
+      },
+      {
+        "name": "Logo_Memory.png",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/img/Logo_Memory.png"
+      },
+      {
+        "name": "Logo_Memory_branco.png",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/img/Logo_Memory_branco.png"
+      },
+      {
+        "name": "fundo-login.png",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/img/fundo-login.png"
+      },
+      {
+        "name": "Logomarca_Memory.png",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/img/Logomarca_Memory.png"
+      },
+      {
+        "name": "search.components.json",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/search.components.json"
+      },
+      {
+        "name": "toggle.components.json",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/toggle.components.json"
+      },
+      {
+        "name": "checks.components.json",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/checks.components.json"
+      },
+      {
+        "name": "status.components.json",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/status.components.json"
+      },
+      {
+        "name": "checks.template.html",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/template/checks.template.html"
+      },
+      {
+        "name": "status.template.html",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/template/status.template.html"
+      },
+      {
+        "name": "toggle.template.html",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/template/toggle.template.html"
+      },
+      {
+        "name": "search.template.html",
+        "path": "/tmp/ide-tmp/cronos/gluonsofts/A636125D-413F-44AD-BD57-66F0FD8E996B/src/main/webapp/components/template/search.template.html"
+      }
+    ]
+  }
+]
